@@ -37,6 +37,12 @@ a:hover .arrow { transform: translate(3px,-3px); }
 .hero { min-height: 900px; color: var(--white); background: #10211d; padding: 160px clamp(24px,4vw,72px) 42px; display: flex; flex-direction: column; }
 .hero-grid { flex: 1; max-width: 1800px; width: 100%; margin: auto; display: grid; grid-template-columns: minmax(0,1.05fr) minmax(420px,.72fr); gap: clamp(50px,7vw,130px); align-items: center; }
 .hero-copy { padding-bottom: 20px; }
+.hero-grid.hero-centered { display: flex; justify-content: center; text-align: center; }
+.hero-centered .hero-copy { width: min(1320px, 100%); padding-bottom: 0; }
+.hero-centered .hero-copy > .eyebrow { margin-left: auto; margin-right: auto; }
+.hero-centered h1 { max-width: 1320px; margin-left: auto; margin-right: auto; }
+.hero-centered .hero-intro { margin-left: auto; margin-right: auto; }
+.hero-centered .hero-actions { justify-content: center; }
 .eyebrow { margin: 0 0 28px; text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 600; }
 .hero h1 { max-width: 980px; margin: 0; font-size: clamp(62px,6.4vw,118px); line-height: .91; letter-spacing: -.065em; font-weight: 450; }
 .hero h1 em { color: var(--teal-bright); font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
@@ -142,7 +148,7 @@ a:hover .arrow { transform: translate(3px,-3px); }
   .mobile-nav a { display: flex; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid var(--line); font-size: 22px; }
   .mobile-nav a:last-child { border: 0; color: var(--teal); font-size: 14px; margin-top: 15px; }
   .hero { min-height: auto; }
-  .hero-grid { grid-template-columns: 1.15fr .75fr; gap: 45px; }
+  .hero-grid:not(.hero-centered) { grid-template-columns: 1.15fr .75fr; gap: 45px; }
   .hero h1 { font-size: clamp(58px,7.5vw,80px); }
   .hero-visual { height: 520px; }
   .statement-grid, .tech-heading, .about-grid { grid-template-columns: 1fr; gap: 40px; }
@@ -158,10 +164,11 @@ a:hover .arrow { transform: translate(3px,-3px); }
   .site-header { height: 70px; padding: 0 20px; }
   .site-header.is-solid { height: 66px; }
   .hero { padding: 118px 20px 28px; }
-  .hero-grid { display: grid; grid-template-columns: 1fr; gap: 50px; }
+  .hero-grid:not(.hero-centered) { display: grid; grid-template-columns: 1fr; gap: 50px; }
   .hero h1 { font-size: clamp(53px,15.5vw,70px); line-height: .94; }
   .hero-intro { margin-top: 28px; font-size: 17px; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 24px; margin-top: 32px; }
+  .hero-centered .hero-actions { align-items: center; }
   .hero-visual { height: 420px; width: calc(100% + 20px); }
   .hero-foot { padding-top: 24px; }
   .section { padding: 90px 20px; }
