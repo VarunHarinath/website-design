@@ -34,10 +34,10 @@ button { font: inherit; }
 a:hover .arrow { transform: translate(3px,-3px); }
 .menu-button, .mobile-nav { display: none; }
 
-.hero { min-height: 100svh; color: var(--white); background: #10211d; padding: 88px clamp(24px,4vw,72px) 0; display: flex; flex-direction: column; position: relative; }
+.hero { width: 100%; min-height: 100vh; min-height: 100svh; color: var(--white); background: #10211d; padding: 0 clamp(24px,4vw,72px); display: flex; align-items: stretch; position: relative; }
 .hero-grid { flex: 1; max-width: 1800px; width: 100%; margin: auto; display: grid; grid-template-columns: minmax(0,1.05fr) minmax(420px,.72fr); gap: clamp(50px,7vw,130px); align-items: center; }
 .hero-copy { padding-bottom: 20px; }
-.hero-grid.hero-centered { display: flex; flex: 1; justify-content: center; align-items: center; text-align: center; }
+.hero-grid.hero-centered { display: flex; width: 100%; min-height: 100vh; min-height: 100svh; margin: 0 auto; justify-content: center; align-items: center; text-align: center; }
 .hero-centered .hero-copy { width: min(1320px, 100%); padding-bottom: 0; }
 .hero-centered .hero-copy > .eyebrow { margin-left: auto; margin-right: auto; }
 .hero-centered h1 { max-width: 1320px; margin-left: auto; margin-right: auto; }
@@ -163,7 +163,8 @@ a:hover .arrow { transform: translate(3px,-3px); }
 @media (max-width: 767px) {
   .site-header { height: 70px; padding: 0 20px; }
   .site-header.is-solid { height: 66px; }
-  .hero { min-height: 100svh; padding: 70px 20px 0; }
+  .hero { min-height: 100vh; min-height: 100svh; padding: 0 20px; }
+  .hero-grid.hero-centered { min-height: 100vh; min-height: 100svh; }
   .hero-grid:not(.hero-centered) { display: grid; grid-template-columns: 1fr; gap: 50px; }
   .hero h1 { font-size: clamp(53px,15.5vw,70px); line-height: .94; }
   .hero-intro { margin-top: 28px; font-size: 17px; }
