@@ -38,9 +38,9 @@ a:hover .arrow { transform: translate(3px,-3px); }
 .hero-grid { flex: 1; max-width: 1800px; width: 100%; margin: auto; display: grid; grid-template-columns: minmax(0,1.05fr) minmax(420px,.72fr); gap: clamp(50px,7vw,130px); align-items: center; }
 .hero-copy { padding-bottom: 20px; }
 .hero-grid.hero-centered { display: flex; width: 100%; min-height: 100vh; min-height: 100svh; margin: 0 auto; justify-content: center; align-items: center; text-align: center; }
-.hero-centered .hero-copy { width: min(1320px, 100%); padding-bottom: 0; }
+.hero-centered .hero-copy { display: flex; width: min(1320px, 100%); padding-bottom: 0; align-items: center; justify-content: center; }
 .hero-centered .hero-copy > .eyebrow { margin-left: auto; margin-right: auto; }
-.hero-centered h1 { max-width: 1320px; margin-left: auto; margin-right: auto; }
+.hero-centered h1 { width: 100%; max-width: 1320px; margin: 0 auto; }
 .hero-centered .hero-intro { margin-left: auto; margin-right: auto; }
 .hero-centered .hero-actions { justify-content: center; }
 .eyebrow { margin: 0 0 28px; text-transform: uppercase; letter-spacing: .16em; font-size: 11px; font-weight: 600; }
