@@ -1,46 +1,25 @@
-export const services = [
+export const coreServices = [
   {
     number: "01",
-    title: "Application & Digital Engineering",
-    short: "Purpose-built software, from requirements through release.",
-    detail:
-      "Bespoke application development, full-stack engineering and modern frameworks brought together around a clear business need.",
+    title: "Digital Engineering",
+    image: "/digital-engineering.jpg",
+    statement: "Unlock scalability, efficiency, and security with cutting-edge digital solutions from Inicio Tech.",
+    items: ["Application Modernization", "Cloud Migration & Transformation", "Intelligent Automation", "Data Services", "DevSecOps", "Site Reliability Engineering", "Cyber Security"],
   },
   {
     number: "02",
     title: "Quality Engineering",
-    short: "Quality designed into the delivery process.",
-    detail:
-      "Engineering-led validation and test practices—including test-driven development—to help teams release dependable software.",
+    image: "/quality-engineering.jpg",
+    statement: "We ensure flawless application delivery and exceptional user experiences through industry-leading Quality Engineering, proactive Advisory Services, and cutting-edge Next-Gen Testing Services.",
+    items: ["AI/ML", "DevOps", "Cloud Assurance", "RPA", "Low Code / No Code Automation", "Functional Testing", "Compatibility Testing", "Regression Testing", "Accessibility Testing", "Automation Testing", "Performance Testing", "UI/UX Testing", "Security Testing", "Design Testing"],
   },
   {
     number: "03",
-    title: "Data & Cloud",
-    short: "Useful data. Scalable foundations.",
-    detail:
-      "Data solutions and cloud computing capabilities that help organizations manage information and build flexible technology environments.",
-  },
-  {
-    number: "04",
-    title: "Cybersecurity & IT Operations",
-    short: "Technology environments built to keep working.",
-    detail:
-      "Cybersecurity, network management, infrastructure and DevOps support for dependable day-to-day operations.",
-  },
-  {
-    number: "05",
-    title: "Consulting & Business Analysis",
-    short: "Business context before technical specification.",
-    detail:
-      "Technology consulting and business analysis that connect users, stakeholders and engineering teams around validated requirements.",
-  },
-  {
-    number: "06",
-    title: "Technology Talent & Training",
-    short: "The right expertise, thoughtfully matched.",
-    detail:
-      "IT staffing, recruitment and technical training supported by careful screening and attention to each organization’s needs.",
+    title: "Advisory & Transformation",
+    image: "/advisory.jpg",
+    statement: "We ensure flawless application delivery and exceptional user experiences through industry-leading Quality Engineering, proactive Advisory Services, and cutting-edge Next-Gen Testing Services.",
+    items: ["Business Function Analysis", "Agile Centre of Excellence", "Cybersecurity Risk Analysis", "Data Governance Strategy & Solution", "Test Advisory & Transformation", "Software Development Engineer in Test", "Low Code / No Code Development & Testing"],
   },
 ];
 
-export const locations = ["Dallas, Texas", "Ottawa, Canada", "Hyderabad, India"];
+export const technologyGroups = ["Node", "JavaScript", "Power BI", "SAS", "Salesforce", "Automation", "Data Platforms"];
