@@ -1,23 +1,32 @@
 export const capabilities = [
   {
     slug: "engineering",
+    sourcePath: "/data-engineering/",
     number: "01",
     title: "Engineering",
     eyebrow: "Digital Engineering",
     statement: "Empowering Businesses with Next-Gen Digital Engineering",
-    overview: "At Inicio Tech Digital Engineering, we help organizations harness the power of advanced technologies to drive efficiency, scalability, and resilience. Our expert-led solutions empower businesses to modernize legacy systems, automate processes, and leverage cloud capabilities to stay competitive.",
+    overview: "At Que Techo Digital Engineering, we help organizations harness the power of advanced technologies to drive efficiency, scalability, and resilience. Our expert-led solutions empower businesses to modernize legacy systems, automate processes, and leverage cloud capabilities to stay competitive.",
     image: "/digital-engineering.jpg",
     services: [
       ["Application Modernization", "Modernize legacy applications to improve functionality, scalability, and alignment with contemporary business goals."],
+      ["Cloud Migration & Transformation", "Seamlessly migrate your infrastructure to the cloud for enhanced flexibility, scalability, and cost-efficiency."],
       ["Intelligent Automation", "Leverage Robotic Process Automation (RPA) and AI-driven solutions to optimize workflows, increase productivity, and reduce human error."],
+      ["Data Services", "From data migration and transformation to governance, we ensure your data is accurate, accessible, and leveraged for actionable insights."],
       ["DevSecOps", "Integrate security into every phase of your development pipeline, ensuring that your applications are secure by design."],
       ["Site Reliability Engineering (SRE)", "Enhance the reliability, performance, and scalability of your systems with our SRE approach."],
       ["Cyber Security", "Protect your digital assets with cutting-edge cybersecurity measures that safeguard against emerging threats and vulnerabilities."],
+    ],
+    reasons: [
+      ["Deep Expertise", "Decades of experience in delivering high-impact digital solutions."],
+      ["Tailored Solutions", "Customized strategies to fit unique business needs and industry requirements."],
+      ["Proven Success", "A track record of driving measurable results across multiple industries."],
     ],
     benefits: ["Scalability", "Operational efficiency", "System resilience", "Secure delivery"],
   },
   {
     slug: "data",
+    sourcePath: "/data-mtmga/",
     number: "02",
     title: "Data Migration, Transformation, Modernization & Governance",
     eyebrow: "Data",
@@ -34,11 +43,12 @@ export const capabilities = [
   },
   {
     slug: "cloud",
+    sourcePath: "/cloud-services/",
     number: "03",
     title: "Cloud",
     eyebrow: "Cloud Transformation",
     statement: "Unleash the Power of the Cloud: Streamline, Optimize, and Innovate",
-    overview: "Inicio Tech provides comprehensive Cloud Services to empower businesses to leverage the scalability, agility, and cost-effectiveness of the cloud. We offer a full spectrum of services, from migration and consulting to advanced cloud analytics, to help you seamlessly transition and maximize the value of your cloud journey.",
+    overview: "Que Techo provides comprehensive Cloud Services to empower businesses to leverage the scalability, agility, and cost-effectiveness of the cloud. We offer a full spectrum of services, from migration and consulting to advanced cloud analytics, to help you seamlessly transition and maximize the value of your cloud journey.",
     image: "/capability-hero.jpg",
     services: [
       ["Cloud Migration", "Seamless Migration"],
@@ -49,6 +59,7 @@ export const capabilities = [
   },
   {
     slug: "quality-engineering",
+    sourcePath: "/quality-engineering-2/",
     number: "04",
     title: "Quality Engineering",
     eyebrow: "Continuous Quality",
@@ -64,11 +75,12 @@ export const capabilities = [
   },
   {
     slug: "ai-led-process-solutions",
+    sourcePath: "/ai-ml/",
     number: "05",
     title: "AI/ML Services",
     eyebrow: "AI/ML Services",
     statement: "Transforming Businesses with Intelligent Automation",
-    overview: "At Inicio, we help businesses harness the potential of Artificial Intelligence (AI) and Machine Learning (ML) to drive innovation, enhance efficiency, and gain actionable insights. Our AI/ML solutions are designed to automate processes, optimize decision-making, and create intelligent systems that adapt and evolve with data.",
+    overview: "At Que Techo, we help businesses harness the potential of Artificial Intelligence (AI) and Machine Learning (ML) to drive innovation, enhance efficiency, and gain actionable insights. Our AI/ML solutions are designed to automate processes, optimize decision-making, and create intelligent systems that adapt and evolve with data.",
     image: "/digital-engineering.jpg",
     services: [
       ["AI-Powered Automation", "We integrate AI-driven automation into business workflows to streamline operations, reduce manual intervention, and enhance accuracy. From robotic process automation (RPA) to intelligent process optimization, our solutions help improve efficiency and productivity."],
@@ -77,6 +89,24 @@ export const capabilities = [
       ["Computer Vision Solutions", "We develop advanced computer vision applications that enable machines to interpret and process visual data."],
     ],
     benefits: ["Automation", "Predictive quality", "Process efficiency", "Engineering enablement"],
+  },
+  {
+    slug: "erp",
+    sourcePath: "/our-technologies/",
+    number: "06",
+    title: "ERP",
+    eyebrow: "Enterprise Platforms",
+    statement: "Your One-Stop Shop for Technology Solutions",
+    overview: "At Que Techo, we are passionate about helping businesses thrive through innovative technology solutions. Our team of experts has extensive experience in a wide range of technologies, enabling us to provide comprehensive and customized solutions that meet your unique needs.",
+    image: "/capability-hero.jpg",
+    services: [
+      ["Microsoft Dynamics 365", "Migration and implementation of Dynamics 365, Power Apps development, on-premises and cloud solutions, and integration with other Microsoft products."],
+      ["SAP", "SAP functional and technical services spanning ABAP, HANA, FICO, implementations, upgrades, migrations, and application support."],
+      ["Workday", "Implementation, customization, integration, testing, application management, and support services."],
+      ["Salesforce", "Administration, development, Lightning Web Components, API integration, testing, and end-to-end implementation."],
+      ["ServiceNow", "Implementation, customization, integration, testing, application management, and support."],
+    ],
+    benefits: ["Dynamics 365", "SAP", "Workday", "Salesforce", "ServiceNow"],
   },
 ];
 

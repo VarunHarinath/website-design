@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 276 64" role="img" aria-labelledby="title">
+  <title id="title">Que Techo</title>
+  <path fill="#07162d" fill-rule="evenodd" d="M4 6h38c5.523 0 10 4.477 10 10v25c0 5.523-4.477 10-10 10h-8l12 7H31L19 51h-5C8.477 51 4 46.523 4 41V6Zm11 11v23h26V17H15Z"/>
+  <path fill="#f0644f" d="M21 13h27v8H38v22h-8V21h-9v-8Z"/>
+  <g fill="#07162d">
+    <path fill-rule="evenodd" d="M72 18h16v22h-5l5 6h-6l-5-6h-5V18Zm5 5v12h6V23h-6Z"/>
+    <path d="M94 18h5v17h7V18h5v17c0 3.4-2.6 5-5.5 5h-6c-3 0-5.5-1.6-5.5-5V18ZM117 18h16v5h-11v4h9v5h-9v3h11v5h-16V18ZM148 18h18v5h-6v17h-6V23h-6v-5ZM172 18h16v5h-11v4h9v5h-9v3h11v5h-16V18ZM210 18v5h-11v12h11v5h-12c-3 0-5-2-5-5V23c0-3 2-5 5-5h12ZM216 18h5v8h7v-8h5v22h-5v-9h-7v9h-5V18Z"/>
+    <path fill-rule="evenodd" d="M244 18h7c3 0 5 2 5 5v12c0 3-2 5-5 5h-7c-3 0-5-2-5-5V23c0-3 2-5 5-5Zm0 5v12h7V23h-7Z"/>
+  </g>
+</svg>

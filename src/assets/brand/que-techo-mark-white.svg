@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Que Techo symbol</title>
+  <path fill="#fff" fill-rule="evenodd" d="M8 6h38c5.523 0 10 4.477 10 10v25c0 5.523-4.477 10-10 10h-8l12 7H35L23 51H18C12.477 51 8 46.523 8 41V6Zm11 11v23h26V17H19Z"/>
+  <path fill="#fff" d="M25 13h27v8H42v22h-8V21h-9v-8Z" opacity=".72"/>
+</svg>

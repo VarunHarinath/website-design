@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-14",
+  "source": "https://iniciotech.com/",
+  "sourcePagesInspected": 79,
+  "sourceWordPressPages": 56,
+  "sourcePosts": 23,
+  "sourceFetchErrors": 0,
+  "newWebsiteRoutesInspected": 84,
+  "classification": {
+    "matched": 41,
+    "reworded": 19,
+    "missingContentFound": 66,
+    "missingContentAdded": 66,
+    "incorrectContentCorrected": 9,
+    "unsupportedClaimsRemoved": 0,
+    "routesFixed": 71
+  },
+  "importantChanges": [
+    "Restored the complete Digital Engineering, Quality Engineering, Advisory & Transformation, and Human Capital Upskilling hierarchy.",
+    "Added source-backed detail routes for real service pages and all 23 published resource posts.",
+    "Added real Careers, Program & Learning, Our Technologies, About, Privacy, Engagement Models, Blog, and Case Studies destinations.",
+    "Restored ERP as a source-supported enterprise-platform capability using only Dynamics 365, SAP, Workday, Salesforce, and ServiceNow information present on Our Technologies.",
+    "Corrected the mission, vision, USA address, India postal formatting, resource links, header navigation, and footer destinations.",
+    "Added sourcePath traceability to capabilities, core services, industries, resources, and service groups.",
+    "Preserved the verified 7+, 98%, and 50+ metrics and removed no claims merely because the source wording is promotional."
+  ],
+  "sourceContentNotAdded": [
+    {
+      "sourcePath": "/demo/",
+      "reason": "WordPress/demo shell with no distinct business information."
+    },
+    {
+      "sourcePath": "/home/",
+      "reason": "Duplicate/legacy home shell; the meaningful homepage content is represented on the React homepage."
+    },
+    {
+      "sourcePath": "/main-page/",
+      "reason": "Duplicate current homepage record; transferring it separately would duplicate the homepage."
+    },
+    {
+      "sourcePath": "/quality-engineering/",
+      "reason": "Duplicate Quality Engineering landing record consolidated into the richer /quality-engineering-2/ route."
+    },
+    {
+      "sourcePath": "/quality-engineering-digital-assurance/",
+      "reason": "Overlapping Quality Engineering landing content consolidated into the Quality Engineering hierarchy."
+    }
+  ],
+  "remainingIssues": [
+    "The source navigation mentions White Paper, but the current public source exposes no distinct published white-paper page or item to transfer.",
+    "Retail and Technology appear as industry claims in source homepage/navigation content but do not currently expose dedicated WordPress detail pages; their React pages therefore retain only source-backed summary scope."
+  ]
+}

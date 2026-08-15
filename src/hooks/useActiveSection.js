@@ -5,15 +5,30 @@ export default function useActiveSection(ids) {
 
   useEffect(() => {
     const elements = ids.map((id) => document.getElementById(id)).filter(Boolean);
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-        if (visible[0]) setActive(visible[0].target.id);
-      },
-      { rootMargin: "-28% 0px -55%", threshold: [0, 0.15, 0.35, 0.6] },
-    );
-    elements.forEach((element) => observer.observe(element));
-    return () => observer.disconnect();
+    let animationFrame;
+
+    const updateActiveSection = () => {
+      cancelAnimationFrame(animationFrame);
+      animationFrame = requestAnimationFrame(() => {
+        const marker = Math.min(window.innerHeight * 0.32, 260);
+        const current = elements.find((element) => {
+          const bounds = element.getBoundingClientRect();
+          return bounds.top <= marker && bounds.bottom > marker;
+        });
+
+        setActive((previous) => previous === (current?.id || "") ? previous : (current?.id || ""));
+      });
+    };
+
+    updateActiveSection();
+    window.addEventListener("scroll", updateActiveSection, { passive: true });
+    window.addEventListener("resize", updateActiveSection);
+
+    return () => {
+      cancelAnimationFrame(animationFrame);
+      window.removeEventListener("scroll", updateActiveSection);
+      window.removeEventListener("resize", updateActiveSection);
+    };
   }, [ids]);
 
   return active;

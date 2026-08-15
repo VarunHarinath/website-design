@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { capabilities } from "../../data/capabilities";
-import { coreServices } from "../../data/services";
 import { industries } from "../../data/industries";
 import { company } from "../../data/company";
+import { serviceGroups } from "../../data/sourceCatalog";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -11,12 +11,12 @@ export default function Footer() {
       <div className="footer-lead"><Logo light /><p>{company.summary}</p></div>
       <div className="footer-map">
         <FooterColumn title="Capabilities">{capabilities.map((item) => <Link key={item.slug} to={`/capabilities/${item.slug}`}>{item.title}</Link>)}</FooterColumn>
-        <FooterColumn title="Services">{coreServices.map((item) => <a key={item.title} href="/#engineering">{item.title}</a>)}</FooterColumn>
+        <FooterColumn title="Services">{serviceGroups.map((item) => <Link key={item.title} to={`/services/${item.overviewSlug}`}>{item.title}</Link>)}</FooterColumn>
         <FooterColumn title="Industries">{industries.map((item) => <Link key={item.slug} to={`/industries/${item.slug}`}>{item.title}</Link>)}</FooterColumn>
-        <FooterColumn title="Company"><a href="/#about">About Us</a><a href="/#careers">Careers</a><a href="/#acumen">Resources</a><Link to="/contact">Contact</Link></FooterColumn>
+        <FooterColumn title="Company"><Link to="/company/about-us">About Us</Link><Link to="/careers">Careers</Link><Link to="/learning">Program &amp; Learning</Link><Link to="/technologies">Our Technologies</Link><Link to="/company/engagement-models-consulting">Engagement Models</Link><Link to="/resources">Resources</Link><Link to="/contact">Contact</Link></FooterColumn>
       </div>
       <div className="footer-offices">{company.locations.map((location) => <div key={location.region}><strong>{location.region}</strong><p>{location.address}</p></div>)}</div>
-      <div className="footer-legal"><span>Copyright © 2026 Inicio Tech</span><a href="#privacy">Privacy Policy</a><a href="mailto:reachus@iniciotech.com">{company.email}</a></div>
+      <div className="footer-legal"><span>© 2026 Que Techo. All rights reserved.</span><Link to="/company/privacy-policy">Privacy Policy</Link><a href={`mailto:${company.email}`}>{company.email}</a></div>
     </footer>
   );
 }

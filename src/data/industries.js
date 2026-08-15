@@ -1,6 +1,7 @@
 export const industries = [
   {
     slug: "bfsi",
+    sourcePath: "/bfsi/",
     title: "BFSI",
     eyebrow: "Transform Banking, Financial Services, and Insurance with AI, Automation, and Secure Digital Solutions.",
     statement: "Empowering BFSI with Digital Innovation, Quality, and Trust.",
@@ -24,11 +25,12 @@ export const industries = [
   },
   {
     slug: "retail",
+    sourcePath: "/",
     title: "Retail",
     eyebrow: "Retail",
     statement: "Delivering a seamless and secure online shopping experience is crucial for success in retail.",
     copy: "Delivering a seamless and secure online shopping experience is crucial for success in retail.",
-    overview: "Inicio Tech is a trusted software testing and development partner for businesses across a variety of industries. We leverage our expertise in quality engineering and innovative to deliver solutions tailored to your specific needs.",
+    overview: "Que Techo is a trusted software testing and development partner for businesses across a variety of industries. We leverage our expertise in quality engineering and innovative to deliver solutions tailored to your specific needs.",
     focus: [["Retail", "Delivering a seamless and secure online shopping experience is crucial for success in retail."]],
     solutions: [["Quality Engineering", "We ensure flawless application delivery and exceptional user experiences through industry-leading Quality Engineering, proactive Advisory Services, and cutting-edge Next-Gen Testing Services."]],
     domains: ["Retail"],
@@ -36,11 +38,12 @@ export const industries = [
   },
   {
     slug: "travel-transportation-hospitality",
+    sourcePath: "/travel-transportation-amp-hospitality/",
     title: "Travel, Transportation & Hospitality",
     eyebrow: "We Assure Frictionless Customer Experiences and Help Increase Your Brand Loyalty",
     statement: "Provide Hyper-Personalized Hospitality & Delightful Experiences to Travelers",
     copy: "Travel and hospitality businesses require robust and scalable software solutions.",
-    overview: "The Travel, Transportation & Hospitality (TTH) industry is evolving rapidly, driven by customer expectations for seamless digital experiences. At Inicio, we specialize in digital assurance services tailored for travel and hospitality businesses, ensuring frictionless customer journeys, secure transactions, and operational efficiency.",
+    overview: "The Travel, Transportation & Hospitality (TTH) industry is evolving rapidly, driven by customer expectations for seamless digital experiences. At Que Techo, we specialize in digital assurance services tailored for travel and hospitality businesses, ensuring frictionless customer journeys, secure transactions, and operational efficiency.",
     focus: [
       ["Airlines & Airports", "Siloed legacy systems leading to inefficiencies in ticketing, baggage handling, and operations."],
       ["Travel & Tourism", "Fragmented customer experiences across booking platforms and service providers."],
@@ -57,11 +60,12 @@ export const industries = [
   },
   {
     slug: "technology",
+    sourcePath: "/",
     title: "Technology",
     eyebrow: "Technology",
     statement: "Staying at the forefront of technology requires continuous innovation and testing.",
     copy: "Staying at the forefront of technology requires continuous innovation and testing.",
-    overview: "Inicio Tech is a trusted software testing and development partner for businesses across a variety of industries. We leverage our expertise in quality engineering and innovative to deliver solutions tailored to your specific needs.",
+    overview: "Que Techo is a trusted software testing and development partner for businesses across a variety of industries. We leverage our expertise in quality engineering and innovative to deliver solutions tailored to your specific needs.",
     focus: [["Technology", "Staying at the forefront of technology requires continuous innovation and testing."]],
     solutions: [["Quality Engineering", "We ensure flawless application delivery and exceptional user experiences through industry-leading Quality Engineering, proactive Advisory Services, and cutting-edge Next-Gen Testing Services."]],
     domains: ["Technology"],
@@ -69,6 +73,7 @@ export const industries = [
   },
   {
     slug: "energy-utilities",
+    sourcePath: "/energy-amp-utilities/",
     title: "Energy & Utilities",
     eyebrow: "Optimizing Energy Systems, Enhancing Sustainability, and Ensuring Operational Resilience with Smart Digital Solutions",
     statement: "Empowering the Future of Energy & Utilities with Digital Innovation",
@@ -90,6 +95,7 @@ export const industries = [
   },
   {
     slug: "healthcare-life-sciences",
+    sourcePath: "/healthcare-amp-life-sciences/",
     title: "Healthcare & Life Sciences",
     eyebrow: "Enhancing Patient Care, Accelerating Research, and Ensuring Regulatory Compliance with Cutting-Edge Technology",
     statement: "Transforming Healthcare & Life Sciences with Digital Innovation",

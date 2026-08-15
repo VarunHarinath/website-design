@@ -5,7 +5,7 @@ export default function CoreServices() {
   return (
     <section className="core-services" aria-label="Core services">
       {coreServices.map((service) => (
-        <a className="service-panel" href="#capabilities" key={service.title}>
+        <a className="service-panel" href={service.route} key={service.title}>
           <img loading="lazy" src={service.image} alt="" />
           <span className="panel-shade" />
           <div className="panel-number">{service.number}</div>

@@ -1,4 +1,4 @@
-# Inicio Technologies Website
+# Que Techo Website
 
 Production landing page built with React, JavaScript, Vite, and Tailwind CSS.
 
